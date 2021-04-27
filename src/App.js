@@ -1,18 +1,15 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import Input from "./InputComponents/Input/index";
-import Button from "./InputComponents/Button/index";
 import { MasterContainer } from "./style";
+import Sidebar from "./Sidebar/index";
+import Main from "./Main/index";
 
 function App() {
   return (
     <Fragment>
       <MasterContainer>
-        <Input placeholder="Placeholder" />
-        <br />
-        <br />
-        <br />
-        <Button />
+        <Sidebar />
+        <Main />
       </MasterContainer>
     </Fragment>
   );
